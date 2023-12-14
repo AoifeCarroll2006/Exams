@@ -1,0 +1,20 @@
+#Student Name = Aoife Carroll
+#num1 = 9
+#num2 = 5
+
+print("This calculator can only add and subtract") #(i)
+name = input("Please enter your name:") #(ii)This is where the uer enters their name
+print("Hello", name, ". Welcome to the addition and subtraction calculator.") #(iii)Using the user's name, the are welcomed to the calculator
+num1 = int(input("Enter the first number:")) #(iv)The user enetrs 2 numbers of their liking
+num2 = int(input("Enter the second number:"))
+
+
+print("Do you want me to (A)dd or (S)ubtract?")#(vi)The user is given the choice of either adding or subtracting their numbers
+choice = input()
+
+if choice == "a" :#If they want to add their numbers, they enter the letter a
+    print(num1 ,"+", num2, "=", num1 + num2)#(v)
+elif choice == "s":#If they want to subtract their numbers, they enter the letter s
+    print(num1 - num2)
+else:
+    print("Invalid option")#(vii)#If the user uses any other letter, the code will be terminated
