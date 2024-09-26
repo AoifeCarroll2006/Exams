@@ -1,0 +1,49 @@
+# Question 1 (a)
+# Student name: Aoife Carroll
+
+
+print("This program can find the perimeter or are of a quadrilateral") #(i)
+length = int(input("Please enter the length: "))
+width = int(input("Please enter the width: "))
+input("Please enter your user name: ") #(ii)
+choice = input("Do you want to find the (p)erimeter or (a)rea?")
+if choice == "p":
+    print(length + length + width + width)
+elif choice == "a":
+    print(length*width)
+
+# Question 1 (b)
+# Student name: Aoife Carroll
+
+import random
+
+computer_options = ["rock", "paper", "scissors"]
+option = input("Enter rock, paper or scissors: ")# (i)
+print ("Player chose:",option) 
+computer_choice = computer_options [random.randint(0,2)]
+print ("Computer chose:" ,computer_choice)
+
+if option == "rock"and computer_choice == "paper":
+    print("Computer wins")
+elif option == "paper"and computer_choice == "rock":
+    print("Player wins")
+else:
+    print("Draw!")
+
+# Question 2
+# Student name: Aoife Carroll
+
+def ticketsSold(VIP, Regular, Budget):
+    VIPcosts = 150
+    Regularcosts = 75
+    Budgetcosts = 40
+VIPcosts = 150
+Regularcosts = 75
+Budgetcosts = 40    
+    
+    
+VIP = int(input("Enter how many VIP tickets were sold: "))
+Regular = int(input("Enter how many Regular tickets were sold: "))
+Budget = int(input("Enter how many Budget tickets were sold: "))
+Total = (VIPcosts + Regularcosts + Budgetcosts)
+print (Total)
