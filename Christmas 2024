@@ -1,0 +1,34 @@
+# Question 1
+# Name: Aoife Carroll
+from random import choice
+
+fruits = ["apple", "cherry", "orange"]
+random_fruit = choice(fruits)#(vii)
+random_fruits_1 = choice(fruits)
+random_fruits_2 = choice(fruits)#(ii)
+random_fruits_3 = choice(fruits)#(ii)
+
+print("Random Fruit 1:",random_fruits_1)#(i)
+print("Random Fruit 2:",random_fruits_2)#(ii)
+print("Random Fruit 3:",random_fruits_3)#(ii)
+
+print("First fruit is", random_fruits_1)#(iii)
+
+if random_fruits_1 == random_fruits_2:#(iv)
+    print("First pair match")
+    print("First pair are", random_fruits_1)#(v)
+elif random_fruits_1 == random_fruits_3 or random_fruits_2 == random_fruits_3:#(vi)
+    print("Matching pair")
+
+for (choice) in range(0, 99):#(vii)
+    random_fruit
+
+
+# Question 2
+# Name: Aoife Carroll
+
+print("Split Bill Calculator")
+total = int(input("How much is the bill?:"))
+num_People = int(input("How many people?:"))
+bill = (total / num_People)
+print("You each owe", bill)
